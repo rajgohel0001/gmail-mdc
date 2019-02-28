@@ -1,0 +1,146 @@
+/*------------------Login page------------------*/
+.logo{
+	width: 74px;
+}
+.signin{
+font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+font-size: 24px;
+font-weight: 400;
+line-height: 1.3333;
+}
+.Text-2{
+	font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .1px;
+    line-height: 1.5;
+    text-align: center;
+    color: #202124;
+    font-family: roboto,'Noto Sans Myanmar UI',arial,sans-serif;
+    margin-bottom: 20px;
+}
+
+
+.btn-1{
+	background-color:#1a73e8 !important;
+	height: 36px !important;
+	width: 88px !important; 
+	color: white !important;
+	text-transform: none;
+	font-weight: 500 !important;
+	margin-left: 280px;
+}
+.field1{
+	width: 366px;
+	margin-bottom: 20px;
+	margin-top: 25px;
+}
+.field2{
+	width:366px;
+	margin-bottom: 20px;
+}
+.main-div{
+	padding: 48px 40px 36px;
+	border: 1px solid #D3D3D3;
+	border-radius: 10px;
+	height: auto;
+	width: 448px;
+	text-align: center;
+	left:0;
+	right: 0;
+	top:0;
+	bottom:0;
+	margin:0 auto;
+	margin-top: 35px;
+}
+.forgot{
+	border-radius: 4px;
+    color: #1a73e8;
+    display: inline-block;
+    font-weight: 500;
+    letter-spacing: .25px;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    outline: 0;
+    padding: 0;
+    text-align: left;
+    text-decoration: none;
+    float:left;
+    margin-bottom: 10px;
+    margin-left: 47px;
+    width: 100%;
+}
+body{
+	direction: ltr;
+	font-family: roboto,'Noto Sans Myanmar UI',arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.4286;
+    margin:0;
+    padding:0; 
+}
+#account{
+	    margin-top: 51px;
+}
+#guest{
+	margin-left: 41px;
+}
+
+/*---------------------create page-------------------------*/
+.main-div-create{
+	padding: 48px 40px 36px;
+	border: 1px solid #D3D3D3;
+	border-radius: 10px;
+	height: auto;
+	width: 700px;
+	text-align: center;
+	left:0;
+	right: 0;
+	top:0;
+	bottom:0;
+	margin:0 auto;
+	margin-top: 35px;
+}
+.logo-create{
+	width: 74px;
+	float: left;
+}
+#crAcc, #contGm, #user{
+	float: left;
+}
+.field3-create{
+	width: 100%;
+	margin-top: 20px;
+}
+.btn-n{
+	background-color:#1a73e8 !important;
+	color: white !important;
+}
+.btn-sign{
+	text-transform: none;
+}
+.fa-eye-slash{
+	margin: 20px 20px 0 0;
+	font-size: 20px;
+}
+a{
+	text-decoration: none;
+}
+/*----------------------create-page-2--------------------*/
+.user-circle{
+	float: left;
+	color: blue;
+	font-size: 25px;
+}
+.txt1,.txt2{
+	width: 100%;
+}
+#p1,#p2,#p3{
+	float: left !important;
+}
+.gender, .month{
+	width: 100%;
+}
+.btn-cr2
+{
+	margin-top: 25px;
+}

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> 
+  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/style-home.css">
+</head>
+<body>
+  <header class="mdc-top-app-bar">
+    <div class="mdc-top-app-bar__row">
+      <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+        <a class="mdc-top-app-bar__navigation-icon" href="javascript:void(0)">
+          <i class="material-icons">menu</i>
+        </a>
+        <a class="mdc-top-app-bar__title catalog-title" href="https://mail.google.com" target="_blank" style="color: inherit;">
+          <img src="images/logo1.png"></a>
+          <svg focusable="false" height="24px" viewBox="0 0 24 24" width="24px" id="svg" xmlns="http://www.w3.org/2000/svg" class=""searchLogo><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg>  
+          <input class="gb_Df" placeholder="Search mail">
+        </section>
+        <a href="contact.html" id="cont"><button class="mdc-button btn-cnt">Contact Us</button></a>
+      </div>
+    </header>
+    <div class="app-drawer-layout mdc-top-app-bar--fixed-adjust">
+      <aside class="mdc-drawer mdc-drawer--dismissible demo-drawer">
+        <nav class="mdc-drawer__drawer">
+          <nav class="mdc-drawer__content mdc-list-group">
+            <div id="icon-with-text-demo" class="mdc-list">
+              <a class="mdc-list-item mdc-list-item--selected demo-drawer-list-item" href="#">
+                <i class="material-icons mdc-list-item__graphic" aria-hidden="true">inbox</i>Inbox
+              </a>
+              <a class="mdc-list-item demo-drawer-list-item" href="#">
+                <i class="material-icons mdc-list-item__graphic" aria-hidden="true">star</i>Star
+              </a>
+              <a class="mdc-list-item demo-drawer-list-item" href="#">
+                <i class="material-icons mdc-list-item__graphic" aria-hidden="true">send</i>Sent Mail
+              </a>
+              <a class="mdc-list-item demo-drawer-list-item" href="#">
+                <i class="material-icons mdc-list-item__graphic" aria-hidden="true">drafts</i>Drafts
+              </a>
+            </div>
+            <hr class="mdc-list-divider">
+            <div class="mdc-list">
+              <a class="mdc-list-item demo-drawer-list-item" href="#">
+                <i class="material-icons mdc-list-item__graphic" aria-hidden="true">email</i>All Mail
+              </a>
+              <a class="mdc-list-item demo-drawer-list-item" href="#">
+                <i class="material-icons mdc-list-item__graphic" aria-hidden="true">delete</i>Trash
+              </a>
+              <a class="mdc-list-item demo-drawer-list-item" href="#">
+                <i class="material-icons mdc-list-item__graphic" aria-hidden="true">report</i>Spam
+              </a>
+            </div>
+          </nav>
+        </nav>
+      </aside>
+      <main class="mdc-drawer-app-content main-content">
+        <div class="mdc-tab-bar" role="tablist">
+          <div class="mdc-tab-scroller">
+            <div class="mdc-tab-scroller__scroll-area">
+              <div class="mdc-tab-scroller__scroll-content">
+                <button class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0">
+                  <span class="mdc-tab__content">
+                    <i class="material-icons">crop_original</i>
+                    <span class="mdc-tab__text-label">Inbox</span>
+                  </span>
+                  <span class="mdc-tab-indicator mdc-tab-indicator--active">
+                    <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                  </span>
+                  <span class="mdc-tab__ripple"></span>
+                </button>
+                <button class="mdc-tab mdc-tab" role="tab" aria-selected="true" tabindex="0">
+                  <span class="mdc-tab__content">
+                    <i class="material-icons">local_offer</i>
+                    <span class="mdc-tab__text-label">Promotion</span>
+                  </span>
+                  <span class="mdc-tab-indicator mdc-tab-indicator">
+                    <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                  </span>
+                  <span class="mdc-tab__ripple"></span>
+                </button>
+                <button class="mdc-tab mdc-tab" role="tab" aria-selected="true" tabindex="0">
+                  <span class="mdc-tab__content">
+                    <i class="material-icons">info</i>
+                    <span class="mdc-tab__text-label">Update</span>
+                  </span>
+                  <span class="mdc-tab-indicator mdc-tab-indicator">
+                    <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                  </span>
+                  <span class="mdc-tab__ripple"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <ul class="mdc-list">
+          <div class="mdc-card">
+            <li class="mdc-list-item" tabindex="0">
+             <div class="mdc-form-field">
+              <div class="mdc-checkbox">
+                <input type="checkbox"
+                class="mdc-checkbox__native-control"
+                id="checkbox-1"/>
+                <div class="mdc-checkbox__background">
+                  <svg class="mdc-checkbox__checkmark"
+                  viewBox="0 0 24 24">
+                  <path class="mdc-checkbox__checkmark-path"
+                  fill="none"
+                  d="M1.73,12.91 8.1,19.28 22.79,4.59"/>
+                </svg>
+                <div class="mdc-checkbox__mixedmark"></div>
+              </div>
+            </div>
+            <i class="material-icons mdc-list-item__graphic" aria-hidden="true">star_border</i>
+            <i class="material-icons">label_important</i>
+          </div>
+          <div class="mdc-layout-grid">
+            <div class="mdc-layout-grid__inner">
+              <div class="mdc-layout-grid__cell--span-2">
+                <p>SSBCrack</p>
+              </div>
+              <div class="mdc-layout-grid__cell--span-8">
+                <p>Call letter...</p>
+              </div>
+              <div class="mdc-layout-grid__cell--span-2">
+                <p>22 Feb</p>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="mdc-list-item" tabindex="0">
+         <div class="mdc-form-field">
+          <div class="mdc-checkbox">
+            <input type="checkbox"
+            class="mdc-checkbox__native-control"
+            id="checkbox-1"/>
+            <div class="mdc-checkbox__background">
+              <svg class="mdc-checkbox__checkmark"
+              viewBox="0 0 24 24">
+              <path class="mdc-checkbox__checkmark-path"
+              fill="none"
+              d="M1.73,12.91 8.1,19.28 22.79,4.59"/>
+            </svg>
+            <div class="mdc-checkbox__mixedmark"></div>
+          </div>
+        </div>
+        <i class="material-icons mdc-list-item__graphic" aria-hidden="true">star_border</i>
+        <i class="material-icons">label_important</i>
+      </div>
+      <div class="mdc-layout-grid">
+        <div class="mdc-layout-grid__inner">
+          <div class="mdc-layout-grid__cell--span-2">
+            <p>Indeed</p>
+          </div>
+          <div class="mdc-layout-grid__cell--span-8">
+            <p>Job Opening at...</p>
+          </div>
+          <div class="mdc-layout-grid__cell--span-2">
+            <p>22 Feb</p>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="mdc-list-item" tabindex="0">
+     <div class="mdc-form-field">
+      <div class="mdc-checkbox">
+        <input type="checkbox"
+        class="mdc-checkbox__native-control"
+        id="checkbox-1"/>
+        <div class="mdc-checkbox__background">
+          <svg class="mdc-checkbox__checkmark"
+          viewBox="0 0 24 24">
+          <path class="mdc-checkbox__checkmark-path"
+          fill="none"
+          d="M1.73,12.91 8.1,19.28 22.79,4.59"/>
+        </svg>
+        <div class="mdc-checkbox__mixedmark"></div>
+      </div>
+    </div>
+    <i class="material-icons mdc-list-item__graphic" aria-hidden="true">star_border</i>
+    <i class="material-icons">label_important</i>
+  </div>
+  <div class="mdc-layout-grid">
+    <div class="mdc-layout-grid__inner">
+      <div class="mdc-layout-grid__cell--span-2">
+        <p>TravelXP</p>
+      </div>
+      <div class="mdc-layout-grid__cell--span-8">
+        <p>Explore world...</p>
+      </div>
+      <div class="mdc-layout-grid__cell--span-2">
+        <p>22 Feb</p>
+      </div>
+    </div>
+  </div>
+</li>
+</div>
+</ul>
+</main>
+</div>
+<script src="js/myJs.js"></script>
+</body>
+</html>

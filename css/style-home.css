@@ -1,0 +1,144 @@
+html {
+  height: 100%;
+}
+#svg{
+  margin: 0 0 0 40px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  margin: 0;
+}
+
+.demo-body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.demo-main {
+  padding-left: 16px;
+  padding-bottom: 16px;
+  overflow: auto;
+}
+
+.app-drawer-layout {
+  display: flex;
+ 
+  .mdc-drawer--dismissible {
+    top: 64px;
+    height: calc(100% - 64px);    
+  }
+}
+
+.main-content {
+  flex: 1;
+  padding: 1.5rem;
+}
+
+.mdc-top-app-bar{
+	background-color: white;
+	border-bottom: 1px solid #ECEFF1;
+}
+
+.material-icons{
+	color: #6F6F6F;
+}
+
+.mdc-top-app-bar__title{
+	margin-top: 6px;
+	padding-left: 0;	
+}
+
+.gb_Qf.gb_Wf .gb_Df {
+    padding-left: 2px;
+}
+.gb_Df {
+    background: transparent;
+    border: none;
+    font: normal 16px Roboto,sans-serif;
+    -webkit-font-variant-ligatures: none;
+    font-variant-ligatures: none;
+    height: 46px;
+    outline: none;
+    padding: 11px 16px 11px 16px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+svg[Attributes Style] {
+    height: 24px;
+    width: 24px;
+}
+user agent stylesheet
+svg:not(:root), symbol, image, marker, pattern, foreignObject {
+    overflow: hidden;
+}
+
+.gb_hf button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0 4px;
+    line-height: 0;
+}
+
+button {
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+}
+
+.gb_Df{
+	background-color: #F5F5F5;
+	max-width: 500px;
+	border-radius: 5px;
+}
+
+.gb_Ef.gb_Qf, .gb_Rf.gb_Qf {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.gb_Ef, .gb_Rf {
+    float: left;
+    position: absolute;
+    top: 0;
+}
+
+.gb_Rf {
+    display: none;
+}
+
+
+.dateClass{
+  float: right;
+}
+
+.mdc-layout-grid{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.mdc-list-item__graphic {
+  margin-right: 0px
+}
+
+.mdc-tab--active .mdc-tab__text-label {
+   color: black;
+}
+
+.mdc-tab__ripple::before, .mdc-tab__ripple::after {
+  background-color: grey;
+}
+.btn-cnt{
+  background-color:#1a73e8 !important;
+  color: white !important;
+  font-weight: 500 !important;
+  margin: 15px;
+}
+#cont{
+  text-decoration: none;
+}
