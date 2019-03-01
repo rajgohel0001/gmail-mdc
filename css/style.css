@@ -144,3 +144,20 @@ a{
 {
 	margin-top: 25px;
 }
+.mdc-text-field--outlined .mdc-notched-outline--upgraded .mdc-floating-label--float-above,
+.mdc-select--outlined .mdc-notched-outline--upgraded .mdc-floating-label--float-above{
+	transform: translateY(-80%) scale(0.75)!important;
+}
+.mdc-text-field,.mdc-select{
+	height: 35px!important;
+}
+.mdc-text-field--outlined .mdc-floating-label,.mdc-select--outlined .mdc-floating-label{
+	top: 8px!important;
+}
+.mdc-select__dropdown-icon{
+	bottom: 6px!important;
+}
+.mdc-select__naive-control{
+	height: 100%!important;
+	padding: 5px 52px 5px 16px!important;
+}

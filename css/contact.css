@@ -85,3 +85,6 @@ body *{
 	color: white !important;
 	background-color: #1a73e8 !important;
 }
+textarea{
+	resize: none;
+}
